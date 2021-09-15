@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoPro</name>
+    </assembly>
+    <members>
+        <member name="M:TodoPro.Controllers.OAuthController.GetAccessToken(System.String,System.String)">
+            <summary>
+            获取Token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoPro.Controllers.TodoController.GetTodos">
+            <summary>
+            获取所有待办事项
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoPro.Controllers.TodoController.GetTodo(System.Guid)">
+            <summary>
+            按ID获取项
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoPro.Controllers.TodoController.PostTodo(TodoProCore.Entities.Todo)">
+            <summary>
+            添加新项
+            </summary>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoPro.Controllers.TodoController.PutTodo(System.Guid,TodoProCore.Entities.Todo)">
+            <summary>
+            更新现有项
+            </summary>
+            <param name="id"></param>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoPro.Controllers.TodoController.DeleteTodo(System.Guid)">
+            <summary>
+            删除项
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
