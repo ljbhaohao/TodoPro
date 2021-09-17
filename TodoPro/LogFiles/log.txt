@@ -6,3 +6,28 @@
 2021-09-15 15:18:41.466 +07:00 [INF] 启动主机
 2021-09-15 15:19:06.880 +07:00 [INF] 启动主机
 2021-09-15 15:19:12.560 +07:00 [INF] 启动获取所有待办事项
+2021-09-16 11:10:55.814 +07:00 [INF] 启动主机
+2021-09-16 13:39:22.738 +07:00 [INF] 启动主机
+2021-09-16 13:39:28.348 +07:00 [INF] 启动获取所有待办事项
+2021-09-16 13:42:40.981 +07:00 [INF] 启动主机
+2021-09-16 13:42:42.474 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - TodoPro.Controllers.OAuthController.GenerrationToken (TodoPro). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-09-16 13:43:18.935 +07:00 [INF] 启动主机
+2021-09-16 13:49:34.040 +07:00 [INF] 启动主机
+2021-09-16 13:49:39.068 +07:00 [INF] 启动获取所有待办事项
+2021-09-16 14:47:25.457 +07:00 [INF] 启动主机
+2021-09-16 14:47:30.235 +07:00 [INF] 启动获取所有待办事项
+2021-09-16 16:34:12.741 +07:00 [INF] 启动主机
+2021-09-16 16:34:17.634 +07:00 [INF] 启动获取所有待办事项
+2021-09-17 08:13:22.660 +07:00 [INF] 启动主机
+2021-09-17 08:13:30.820 +07:00 [INF] 启动获取所有待办事项
+2021-09-17 08:14:29.828 +07:00 [INF] 启动主机
+2021-09-17 08:15:27.351 +07:00 [INF] 启动主机
+2021-09-17 08:29:47.538 +07:00 [INF] 启动主机
+2021-09-17 08:32:52.028 +07:00 [INF] 启动主机
+2021-09-17 08:35:15.538 +07:00 [INF] 启动获取所有待办事项

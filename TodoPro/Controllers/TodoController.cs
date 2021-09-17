@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,7 +16,7 @@ namespace TodoPro.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   
+    [Authorize(AuthenticationSchemes =JwtBearerDefaults.AuthenticationScheme)]
     public class TodoController : ControllerBase
     {
         private readonly TodoContext _context;
@@ -41,7 +43,6 @@ namespace TodoPro.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet("{id}")]
- 
         public async Task<ActionResult<Todo>> GetTodo(Guid id)
         {
             var todo = await _context.Todos.FindAsync(id);
